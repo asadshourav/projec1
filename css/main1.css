@@ -1,0 +1,139 @@
+@font-face{
+  font-family: "overgrow";
+  src: url(../font/Overgrow-Demo.otf);
+}
+
+@font-face{
+  font-family: "fly";
+  src: url(../font/LearntoFly-Regular.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+.icon-bar{
+    /* width: 100%; */
+    background-color: #85929E;
+    overflow: auto;
+}
+.icon-bar a{
+    float: left;
+    width: 17%;
+    text-align: center;
+    padding: 10px 7px 10px 7px;
+    transition: all 0.3s ease-in-out;
+    color: wheat;
+    font-size: 30px;
+}
+.icon-bar a:hover{
+    background-color: thistle;
+    overflow: hidden;
+}
+.icon-bar .search {
+    float: right;
+  }
+  
+  .icon-bar input[type=text] {
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 17px;
+    border: none;
+}
+  
+  .icon-bar .search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 10px;
+    margin-right: 16px;
+    background: #ddd;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  .icon-bar .search button:hover {
+    background: #ccc;
+  }
+
+  .beach{
+    width: 100%;
+    height: auto;
+  }
+  body,h1{
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  
+  .container{
+    position: absolute;
+    top:10%;
+    left: 7.5%;  
+    display: flex;
+    font-size: 60px;
+    color: transparent;
+    background-image: url(../mother/colorful-images-1.jpg);
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+  }
+
+  @keyframes animate{
+      0%{
+          background-position: left 20% top 28%;
+      }
+      40%{
+          background-position: left 80% top 54%;
+      }
+  }
+.qts{
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 35%;
+  left: 17%;
+  font-size: 30px;
+  font-family: "fly";
+  text-align: center;
+  color: #1C2833;
+  background-color: transparent;
+}
+.one{
+  font-size: 40px;
+  opacity: 0.8;
+}
+.two{
+  font-size: 25px;
+}
+.three{
+  font-size: 45px;
+}
+.four{
+  font-size: 25px;
+}
+.fas1{
+  color: red;
+  margin-left: 7px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+
+}
+.fas1 :hover{
+  transition: all 0.3s ease-in-out;
+}
+.fa1{
+  position: absolute;
+  top: 7%;
+  left: 16%;
+}
+.author{
+  position: absolute;
+  top: 76%;
+  left: 60%;
+}
+.author:before{
+  content: "\2014\0020";
+}

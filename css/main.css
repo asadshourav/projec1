@@ -1,0 +1,151 @@
+@font-face{
+    font-family: "lucida-handwritig";
+    src: url(../font/Lucida\ Handwriting\ Italic.ttf);
+}
+@font-face{
+    font-family: "informal-style";
+    src: url(../font/InFormal_Style_Regular.otf);
+}
+@font-face{
+    font-family: "lonely-melody";
+    src: url(../font/Lonely\ Melody\ Font\ by\ 7NTypes.otf);
+}
+@font-face{
+    font-family: "zoom";
+    src: url(../font/zoomrunnerpunch.ttf);
+}
+:root{
+   --black: #252525; 
+}
+body{
+    background-image: url(../mother/baby.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.856)); */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.intro{
+    
+    position:absolute;
+    top: 3%;
+    left: 22%;
+    font-size: 80px;
+    opacity: 0.5;
+    color:var(--black);
+    font-family: "lucida-handwritig";
+
+}
+.text{
+    position: absolute;
+    top:40%;
+    right: 3%;
+    color: #17202A ;
+    opacity: 0.85;
+}
+.quotes{
+    font-size: 30px;
+    font-family: "informal-style";
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+}
+
+.arrow{
+    width: 40px;
+    height: 3px;
+    background-color: black;
+  position: absolute;
+  bottom: -60%;
+  right : 25.5%;
+  border:radius;
+
+
+}
+.arrow::after{
+  content:" ";
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    transform: rotate(45deg );
+  display:inline-block;
+  position: absolute;
+  right:-1.5px;
+  bottom:8.7px;
+  
+}
+.arrow::before{
+   content:" ";
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    transform: rotate(-45deg );
+  display:inline-block;
+  position: absolute;
+  right:-1.6px;
+  bottom:-8.4px;
+  
+}
+.writer{
+    position: absolute;
+    bottom: -95%;
+    right: 3%;
+    font-size: 25px;
+    font-family: "lonely-melody";
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #17202A ;
+    opacity: 0.7;
+}
+.btn{
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+}
+.congress{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 84px;
+    color: #2C3E50 ;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    text-orientation: upright;
+    transform: translateY(-50%);
+    font-weight: bold;
+    opacity: 0.6;
+
+}
+.btn{
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    font-size: 23px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: 2px solid #839192 ;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+.btn svg{
+    width: 22px;
+    transition: all 0.3s ease-in-out;
+    vertical-align: middle;
+}
+.btn:hover {
+	background-color: #D35400 ;
+	color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4)
+}
+.time{
+    position: absolute;
+    top: 1%;
+    right: 0.7%;
+    font-size: 18px;
+    /* background-color: tan; */
+    color: #2C3E50;
+    font-family: "lucida-handwritig";
+    font-weight: bold;
+    text-transform: uppercase;
+}
